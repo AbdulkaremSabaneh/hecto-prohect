@@ -44,3 +44,20 @@ body{
         display: block;
     }
 }
+footer{
+    background-color: #E7E4F8;
+    padding: 50px 0;
+
+}
+footer .right-side{
+    width: 60%;
+}
+footer .left-side{
+    align-items: flex-start;
+}
+.footer-item{
+   
+}
+footer a , .address-info{
+ color: #8A8FB9;
+}
