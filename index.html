@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -75,7 +82,7 @@
       <section class="hero">
         <div class="container">
           <div class="row">
-            <div class="hero-content d-flex flex-direction gap4  ">
+            <div class="hero-content d-flex flex-direction gap4">
               <p class="text-primary">Best Furniture For Your Castle....</p>
               <h1>New Furniture Collection Trends in 2020</h1>
               <p class="hero-p">
@@ -95,11 +102,27 @@
           <h2>Featured Products</h2>
           <div class="row">
             <div class="product">
-              <div class="badge-sale">
-                <img src="./assets/img/public/badge-sale.webp" />
-              </div>
-              <div class="img">
-                <img src="./assets/img/product/Cantilever chair one.webp" />
+              <div class="f-products-show">
+                <div class="f-products-icons">
+                  <button>
+                    <img
+                      class="img1"
+                      src="./assets/img/icons/shopping cart.svg"
+                    />
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/heart.svg" />
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/search.svg" />
+                  </button>
+                </div>
+                <div class="f-products-btn">
+                  <button class="btn btn-success">View Details</button>
+                </div>
+                <div class="img">
+                  <img src="./assets/img/product/Cantilever chair one.webp" />
+                </div>
               </div>
               <div class="product-details">
                 <h3 class="text-primary">Cantilever chair</h3>
@@ -115,8 +138,27 @@
               </div>
             </div>
             <div class="product">
-              <div class="img">
-                <img src="./assets/img/product/Cantilever chair two.webp" />
+              <div class="f-products-show">
+                <div class="f-products-icons">
+                  <button>
+                    <img
+                      class="img1"
+                      src="./assets/img/icons/shopping cart.svg"
+                    />
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/heart.svg" />
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/search.svg" />
+                  </button>
+                </div>
+                <div class="f-products-btn">
+                  <button class="btn btn-success">View Details</button>
+                </div>
+                <div class="img">
+                  <img src="./assets/img/product/Cantilever chair two.webp" />
+                </div>
               </div>
               <div class="product-details">
                 <h3 class="text-primary">Cantilever chair</h3>
@@ -132,8 +174,27 @@
               </div>
             </div>
             <div class="product">
-              <div class="img">
-                <img src="./assets/img/product/Cantilever chair three.webp" />
+              <div class="f-products-show">
+                <div class="f-products-icons">
+                  <button>
+                    <img
+                      class="img1"
+                      src="./assets/img/icons/shopping cart.svg"
+                    />
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/heart.svg" />
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/search.svg" />
+                  </button>
+                </div>
+                <div class="f-products-btn">
+                  <button class="btn btn-success">View Details</button>
+                </div>
+                <div class="img">
+                  <img src="./assets/img/product/Cantilever chair three.webp" />
+                </div>
               </div>
               <div class="product-details">
                 <h3 class="text-primary">Cantilever chair</h3>
@@ -149,8 +210,27 @@
               </div>
             </div>
             <div class="product">
-              <div class="img">
-                <img src="./assets/img/product/Cantilever chair four.webp" />
+              <div class="f-products-show">
+                <div class="f-products-icons">
+                  <button>
+                    <img
+                      class="img1"
+                      src="./assets/img/icons/shopping cart.svg"
+                    />
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/heart.svg" />
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/search.svg" />
+                  </button>
+                </div>
+                <div class="f-products-btn">
+                  <button class="btn btn-success">View Details</button>
+                </div>
+                <div class="img">
+                  <img src="./assets/img/product/Cantilever chair four.webp" />
+                </div>
               </div>
               <div class="product-details">
                 <h3 class="text-primary">Cantilever chair</h3>
@@ -162,6 +242,184 @@
                 <div class="product-info d-flex flex-direction gap2">
                   <span class="text-secondary">Code - Y523201</span>
                   <span class="text-secondary">$42.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="leatest-products text-center">
+        <div class="container">
+          <div class="l-products-header d-flex flex-direction gap4">
+            <h2 class="text-secondary">Leatest Products</h2>
+            <nav>
+              <a class="text-secondary" href="#">New Arrival</a>
+              <a class="text-secondary" href="#">Best Seller</a>
+              <a class="text-secondary" href="#">Featured</a>
+              <a class="text-secondary" href="#">Special Offer</a>
+            </nav>
+            <div class="l-product-bar">
+            <svg
+              width="20px"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+            >
+              <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z"
+              />
+            </svg>
+          </div>
+            
+          </div>
+          <div class="row">
+            <div class="product">
+              <div class="l-products-show">
+                <div class="l-products-icons">
+                  <button>
+                    <img src="./assets/img/icons/shopping-cart-two.svg"/>
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/heart-two.svg">
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/search-two.svg" />
+                  </button>
+                </div>
+                <div class="l-product-img">
+                  <img src="./assets/img/product/Cantilever chair one.webp" />
+                </div>
+              </div>
+              <div class="l-product-details">
+                <p class="text-secondary">Comfort  Handy  Craft</p>
+                <div class="price">
+                  <span class="text-secondary">$42.00</span>
+                  <span class="text-line text-dengar">$65.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="l-products-show">
+                 <div class="l-products-icons">
+                  <button>
+                    <img src="./assets/img/icons/shopping-cart-two.svg"/>
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/heart-two.svg">
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/search-two.svg" />
+                  </button>
+                </div>
+                <div class="l-product-img">
+                  <img src="./assets/img/product/Cantilever chair one.webp" />
+                </div>
+              </div>
+              <div class="l-product-details">
+                <p class="text-secondary">Comfort Handy Craft</p>
+                <div class="price">
+                  <span class="text-secondary">$42.00</span>
+                  <span class="text-line text-dengar">$65.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="l-products-show">
+                 <div class="l-products-icons">
+                  <button>
+                    <img src="./assets/img/icons/shopping-cart-two.svg"/>
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/heart-two.svg">
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/search-two.svg" />
+                  </button>
+                </div>
+                <div class="l-product-img">
+                  <img src="./assets/img/product/Cantilever chair one.webp" />
+                </div>
+              </div>
+              <div class="l-product-details">
+                <p class="text-secondary">Comfort Handy Craft</p>
+                <div class="price">
+                  <span class="text-secondary">$42.00</span>
+                  <span class="text-line text-dengar">$65.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="l-products-show">
+                 <div class="l-products-icons">
+                  <button>
+                    <img src="./assets/img/icons/shopping-cart-two.svg"/>
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/heart-two.svg">
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/search-two.svg" />
+                  </button>
+                </div>
+                <div class="l-product-img">
+                  <img src="./assets/img/product/Cantilever chair one.webp" />
+                </div>
+              </div>
+              <div class="l-product-details">
+                <p class="text-secondary">Comfort Handy Craft</p>
+                <div class="price">
+                  <span class="text-secondary">$42.00</span>
+                  <span class="text-line text-dengar">$65.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="l-products-show">
+                 <div class="l-products-icons">
+                  <button>
+                    <img src="./assets/img/icons/shopping-cart-two.svg"/>
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/heart-two.svg">
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/search-two.svg" />
+                  </button>
+                </div>
+                <div class="l-product-img">
+                  <img src="./assets/img/product/Cantilever chair one.webp" />
+                </div>
+              </div>
+              <div class="l-product-details">
+                <p class="text-secondary">Comfort Handy Craft</p>
+                <div class="price">
+                  <span class="text-secondary">$42.00</span>
+                  <span class="text-line text-dengar">$65.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="l-products-show">
+                 <div class="l-products-icons">
+                  <button>
+                    <img src="./assets/img/icons/shopping-cart-two.svg"/>
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/heart-two.svg">
+                  </button>
+                  <button>
+                    <img src="./assets/img/icons/search-two.svg" />
+                  </button>
+                </div>
+                <div class="l-product-img">
+                  <img src="./assets/img/product/Cantilever chair one.webp" />
+                </div>
+              </div>
+              <div class="l-product-details">
+                <p class="text-secondary">Comfort Handy Craft</p>
+                <div class="price">
+                  <span class="text-secondary">$42.00</span>
+                  <span class="text-line text-dengar">$65.00</span>
                 </div>
               </div>
             </div>
