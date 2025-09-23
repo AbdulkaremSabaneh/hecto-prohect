@@ -203,7 +203,7 @@ body{
 .product:hover .product-details{
     background-color: #2F1AC4;
 }
-.product:hover h3{
+.product:hover  .product-details h3{
     color: #fff;
 }
 .product:hover .color-three{
@@ -219,14 +219,7 @@ body{
     opacity: 1;
 }
 @media screen and (max-width:420px) {
-    .badge-sale{
-    position: absolute;
-    top:10px ;
-    left: 4px;
-    }
-    .badge-sale img{
-        width: 60px;
-    }
+   
     .product .img img{
     width: 150px;
     height: 150px;
@@ -271,7 +264,14 @@ body{
     background-color: #F7F7F7;
     position: relative;
     padding:  40px;
+    transition: all 0.5s;
 
+
+}
+.l-products-show .badge-sale{
+position: absolute;
+left: 18px;
+top: 25px;
 
 }
 .l-products-icons{
@@ -286,12 +286,18 @@ body{
 }
 .l-products-icons button{
      border: none;
-    outline: none;background-color: #F7F7F7;
+    outline: none;
+    background-color: #F7F7F7;
     padding: 5px ;
      display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.1s;
+}
+.l-product-img  img{
+width: 200px;
+height: 200px;
+object-fit: contain;
 }
 .l-product-details{
     display: flex;
@@ -301,19 +307,30 @@ body{
     
 }
 
+
 .l-product-details .price{
     display: flex;
     gap: 10px;
+   
+    
 }
 
 .l-products-header nav a:hover {
  color: var(--primary);
  text-decoration: underline var(--primary);
 }
+.leatest-products .product:hover .l-products-show{
+    background-color: #fff;
+}
 .leatest-products .product:hover .l-products-icons{
    opacity: 1;
+   
 }
-.l-products-icons button:active{
+.leatest-products .product:hover button{
+    background-color: #fff;
+}
+
+.leatest-products .l-products-show .l-products-icons button:active{
     border-radius: 50%;
     background-color: #EEEFFD;
 }
@@ -332,6 +349,14 @@ body{
    
 }
 @media screen and (max-width:420px) {
+     .badge-sale{
+    position: absolute;
+    top:10px ;
+    left: 4px;
+    }
+    .badge-sale img{
+        width: 60px;
+    }
     .l-product-img img{
         width: 110px;
         height: 110px;
