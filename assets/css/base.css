@@ -31,6 +31,7 @@ ul{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+   
 }
 .container{
     width: calc(100% - 320px);
@@ -50,7 +51,14 @@ ul{
 }
 @media screen and (max-width:576px){
     .container{
-    width: calc(100% - 170px);
+    width: calc(100% - 100px);
+    margin: auto;
+}
+
+}
+@media screen and (max-width:380px){
+    .container{
+    width: calc(100% - 50px);
     margin: auto;
 }
 }
@@ -107,4 +115,7 @@ ul{
 }
 .text-dengar{
     color: red;
+}
+.justify-content-center{
+    justify-content: center;
 }
