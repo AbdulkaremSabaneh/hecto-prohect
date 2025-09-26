@@ -433,6 +433,80 @@ color: rgba(26, 11, 91, 30%);
 
 /* end trending products */
 
+
+/* start Top Categories */
+
+.top-categories{
+    padding-bottom: 178px;
+}
+.top-categories h2{
+    margin-bottom: 52px;
+}
+.top-categories .row{
+    gap: 39px;
+}
+.top-categories .product{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+    justify-content: center;
+   flex: 1 0 200px;
+
+}
+.tc-product-img{
+    background-color: #F6F7FB;
+    border-radius: 50%;
+    padding: 60px 60px 52px 51px;
+    transition: all 0.5s;
+    position: relative;
+   
+
+}
+.tc-product-img img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.tc-products-btn{
+    position: absolute;
+    padding: 8px 18px 8px 18px;
+    bottom: 17px;
+    left: 78px;
+    opacity: 0;
+    transition: all 0.5s;
+   
+}
+.tc-products-btn .btn{
+    padding: 8px 18px 8px 18px;
+}
+.tc-product-details .row{
+justify-content: center;
+gap: 7px;
+}
+.top-categories .product:hover .tc-products-btn{
+    opacity: 1;
+}
+.top-categories .product:hover .tc-product-img{
+    box-shadow: -8px 8px #9877E7;
+}
+@media screen and (max-width:440px) {
+    .tc-product-img{
+        padding:20px 30px 35px 20px ;
+    }
+    .tc-products-btn{
+        padding :0 ;
+        bottom: 12px;
+        left: 76px;
+    }
+    
+    
+}
+
+
+/* end Top Categories */
+
+
 /* start newslater */
 .newslater{
     background-image:url('../img/public/Rectangle.webp');
