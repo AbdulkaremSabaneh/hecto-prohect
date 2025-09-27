@@ -62,7 +62,12 @@ ul{
     margin: auto;
 }
 }
-
+@media screen and (max-width:340px){
+    .container{
+    width: calc(100% - 30px);
+    margin: auto;
+}
+}
 
 
 .text-white{
